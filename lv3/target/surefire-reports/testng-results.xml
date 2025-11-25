@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTestsSuite" duration-ms="9409" started-at="2025-11-25T08:42:18Z" finished-at="2025-11-25T08:42:28Z">
+    <groups>
+    </groups>
+    <test name="My First REST API Test" duration-ms="9409" started-at="2025-11-25T08:42:18Z" finished-at="2025-11-25T08:42:28Z">
+      <class name="FirstTest">
+        <test-method status="PASS" signature="get_with_param(int, java.lang.String)[pri:0, instance:FirstTest@17579e0f]" name="get_with_param" duration-ms="3164" started-at="2025-11-25T08:42:18Z" data-provider="dpGetWithParam" finished-at="2025-11-25T08:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pankaj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_with_param -->
+        <test-method status="PASS" signature="get_with_param(int, java.lang.String)[pri:0, instance:FirstTest@17579e0f]" name="get_with_param" duration-ms="2055" started-at="2025-11-25T08:42:21Z" data-provider="dpGetWithParam" finished-at="2025-11-25T08:42:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_with_param -->
+        <test-method status="PASS" signature="post_test()[pri:0, instance:FirstTest@17579e0f]" name="post_test" duration-ms="2098" started-at="2025-11-25T08:42:23Z" finished-at="2025-11-25T08:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test -->
+        <test-method status="PASS" signature="simple_get_test()[pri:0, instance:FirstTest@17579e0f]" name="simple_get_test" duration-ms="2077" started-at="2025-11-25T08:42:25Z" finished-at="2025-11-25T08:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simple_get_test -->
+      </class> <!-- FirstTest -->
+    </test> <!-- My First REST API Test -->
+  </suite> <!-- AllTestsSuite -->
+</testng-results>
